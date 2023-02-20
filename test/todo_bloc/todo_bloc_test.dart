@@ -140,7 +140,7 @@ void main() {
     });
 
     blocTest<TodoFilterBloc, TodoFilterState>(
-      'emits [TodoFilterLoading, TodoFilterLoaded] states when TodoFilterUpdated is added.',
+      'emits [TodoFilterLoading, TodoFilterLoaded] states when TodosUpdated is added.',
       build: () {
         todoBloc.add(const TodoLoaded());
         when(() => repository.getTodos()).thenAnswer(
@@ -161,7 +161,7 @@ void main() {
     );
 
     blocTest<TodoFilterBloc, TodoFilterState>(
-      'emits [MyState] when MyEvent is added.',
+      'emits [TodoFilterLoading, TodoFilterLoaded] states when TodoFilterUpdated is added.',
       build: () {
         todoBloc.add(const TodoLoaded());
         when(() => repository.getTodos()).thenAnswer(
