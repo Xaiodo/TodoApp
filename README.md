@@ -31,7 +31,5 @@ A new Flutter project.
 ### Done tab bar:
 <img src="https://cdn.discordapp.com/attachments/1055860626049740840/1076203122399125664/Screenshot_1676657193.png" width="200" height="400" />
 
-### Done tab bar:
-<img src="https://cdn.discordapp.com/attachments/1055860626049740840/1076203122399125664/Screenshot_1676657193.png" width="200" height="400" />
 
 
